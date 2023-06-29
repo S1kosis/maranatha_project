@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\styles.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">    <title>Maranatha Kids Administration</title>
+</head>
+<body>
+    
+    <nav class="nav_list">
+        <div class="nav-items">
+            <a href="teammbr.html">
+                <img src="img/backbtn.svg" alt="">
+            </a>
+        </div>
+    </nav>
+    <div class="artimg artimg-tr">
+        <img src="img/art-newform.svg" alt="">
+    </div>
+    <div class="newform-area">
+        <form action="/submit" method="POST" class="newchild-form">
+            <h1 class="form-heading">Child's Details</h1>
+            <div class="inputs">
+                <div class="form-row">
+                    <input type="text" name="cfname" class="input-text" placeholder="First Name">
+                    <input type="text" name="clname" class="input-text" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <input type="date" name="cdob" class="input-text" placeholder="Date of Birth">
+                    <input type="text" name="home_address" class="input-text" placeholder="Address">
+                </div>
+            </div>
+            <h1 class="form-heading">Parent's Details</h1>
+            <div class="inputs">
+                <div class="form-row">
+                    <input type="text" name="pfname" class="input-text" placeholder="First Name">
+                    <input type="text" name="plname" class="input-text" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <input type="text" name="contact_number" class="input-text" placeholder="Contact Number">
+                    <input type="text" name="email_address" class="input-text" placeholder="Email">
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<div>
+    <script src="routes.js"> 
+    </script>
+</div>
+</body>
+</html>
